@@ -1,0 +1,16 @@
+https://missing.csail.mit.edu/2020/course-shell/
+
+My Solutions
+
+1. echo $SHELL
+2. mkdir /tmp/missing
+3. man touch
+4. touch /tmp/missing/semester
+5. echo '#!/bin/sh' > /tmp/missing/semester
+   echo "curl --head --silent https://missing.csail.mit.edu" >> /tmp/missing/semester
+6. ./semester
+7. sh semester
+8. man chmod
+9. chmod +x semester
+10. ./semester | grep last-modified > ~/last-modified.txt
+11. cat /sys/class/power_supply/BAT1/capacity 
